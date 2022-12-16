@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Allerta+Stencil&family=Kdam+Thmor+Pro&family=Montserrat:wght@700&family=Nova+Round&family=Open+Sans&family=Scada&display=swap');
+.start-acount-items{
+    
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.815), rgba(22, 7, 231, 0.73),rgba(222, 221, 233, 0.73)),url(../../images/bg\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.account-items{
+    display: flex;
+    height: 100%;
+    
+    flex-direction: row;
+    border-bottom: 1px solid white;
+}
+.start-adding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+    font-size: small;
+    flex-wrap: wrap;
+}
+.start-adding{
+    flex: 1 10%;
+}
+.acount-item{
+    
+    
+    background-color: #37384E;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.25);
+    margin: 3px;
+    padding-top: 12px;
+    width: 215px;
+    height: 100vh;
+    
+}
+.name-edit-side h4{
+    padding-top: 15px;
+    color: white;
+}
+.acount-item{
+    
+    width: 400px;
+    text-align: center;
+    align-items: center;
+}
+.profile-edit-side {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+
+}
+.acount-item .button{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 120px;
+    
+    
+    background-color: #D9D9D9;
+    color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.acount-item .button i{
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.profile-cercle{
+    background-color: white;
+    margin-top: 120px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.edit-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.edit-profile button{
+    width: 180px;
+    gap: 10px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-size: small;
+    font-weight: bold;
+    margin-top: 25px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    border-radius: 50px;
+    font-size: smaller;
+}
+.edit-profile  .linked{
+    width: 180px;
+    gap: 10px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-size: small;
+    font-weight: bold;
+    margin-top: 25px;
+    border: none;
+    background-color:  #37384E;
+    padding: 5px;
+    color: white;
+    border-radius: 50px;
+    border: 1px white solid;
+    font-size: smaller;
+}
+.projet-reach{
+    margin-top: 80px;
+}
+.project-views{
+    
+    display: flex;
+    color: white;
+    font-size: small;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.project-views h3{
+    font-size: small;
+    margin-top: 25px;
+    padding: 0 15px;
+
+    
+}
+.sharing-area{
+    margin: 50px;
+}
+.say-welcome{
+    background: linear-gradient(135deg, rgba(192, 184, 169, 0.932) 60%, rgba(18, 3, 85, 0.199));
+    margin : 120px 50px 0px 50px ;
+    
+    border-radius: 50px;
+    padding: 120px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(39, 4, 63, 0.25);
+}
+.say-welcome button{
+    margin-top: 20px;
+    
+    border-radius: 15px;
+    background-color: rgb(189, 164, 22);
+    padding: 15px;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.25);
+}
+.say-welcome button i{
+    margin-right: 4px;
+}
+@media only screen and (max-width: 700px){
+    .account-items{
+        flex-direction: column;
+    }
+    .acount-item{
+        width: 100%;
+        
+    }
+    .edit-profile{
+        flex-direction: row;
+        gap: 25px;
+    }
+}
+.say-welcome h1{
+    color: rgb(4, 4, 54);
+    text-transform: uppercase;
+    font-size: 250%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+.social-media{
+    display: none;
+}
+.social-media-2{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.acount-item{
+    border-bottom: 1px solid white;
+}
+

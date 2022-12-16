@@ -1,0 +1,83 @@
+
+.start-explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-size: small;
+    flex-wrap: wrap;
+    background-image: linear-gradient(180deg, #393A50, rgb(25, 7, 92));
+    height: 100vh;
+}
+.start-explore{
+    flex: 1 15%;
+}
+.explore-main{
+    text-align: center;
+}
+.explore-main h3{
+    font-size: 500%;
+    color: white;
+    background-color: none;
+}
+.explore-main-items img{
+    width: 280px;
+    padding: 25px;
+    border-radius: 0 50px 0 0;
+}
+.explore-main-items-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: small;
+    padding: 0 25px;
+}
+.explore-main-items-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liked-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.views-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.views-side li{
+    margin-right: 4px;
+    list-style: none;
+}
+.liked-side li{
+    margin-right: 4px;
+    list-style: none;
+}
+.user-profile{
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.user-profile a{
+    font-size: 8px;
+    padding: 6px;
+    
+}
+.explore-main-items-user li{
+    margin-left: 6px;
+    list-style: none;
+}
+@media only screen and  (max-width: 1500px) {
+    .explore-main{
+        height: 100%;
+        text-align: center;
+    }
+    .start-explore{
+       height: 100%;
+    }
+    
+}
+

@@ -1,0 +1,8 @@
+.flex-one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.control input[type='text']{
+    width: 96%;
+}

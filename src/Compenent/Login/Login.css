@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Allerta+Stencil&family=Montserrat:wght@700&family=Nova+Round&family=Open+Sans&family=Scada&display=swap');
+section{
+    padding-top: 520px;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, #393A50, rgb(25, 7, 92));
+    
+}
+form{
+    border-bottom: 1px solid white;
+}
+.form-container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-image: linear-gradient(180deg, #37384E, rgb(25, 7, 92));
+    width: 600px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: -1px 3px 2px 4px rgba(0, 0, 0, 0.2);
+
+
+}
+.form-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+.form-container h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+}
+.control label{
+    font-family: 'Montserrat';
+    font-weight:  600;
+    font-size: 12px;
+    color: white;
+
+}
+.control input{
+    width: 98%;
+    height: 47px;
+    margin: 12px 0;
+    display: block;
+    background-color: #8377D1;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: em;
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+.check-box{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.check-box label{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.control input[type='submit']{
+    background-color: #23243C;
+    width: 40%;
+    padding: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.control input[type='submit']:hover{
+    
+    
+    background-color: #8377D1;
+    opacity: 1;
+    
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    transition: opacity .3s ease;
+}
+.link{
+    padding-top: 12px;
+    
+}
+.link a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+*:focus {
+    outline: none;
+}
+@media only screen and (max-width: 1000px) {
+    .form-container{
+        top: 60%;
+    }
+  }

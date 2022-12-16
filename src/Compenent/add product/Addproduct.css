@@ -1,0 +1,92 @@
+.start-adding-product{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.815), rgba(22, 7, 231, 0.73),rgba(222, 221, 233, 0.73)),url(../../images/bg\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.add-img-btn{
+    width: 288px;
+    height: 248px;
+    background: #513B3B;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+}
+.add-img-btn i{
+    color: #D9D9D9;
+    font-size: 55px;
+}
+.adding-product-items{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-image: linear-gradient(180deg, #37384E, rgb(25, 7, 92));
+    width: 600px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: -1px 3px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.inputes-side{
+    width: 100%;
+}
+.inputes-side input:first-child{
+    width: 100%;
+}
+.add-img-btn h4{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: lighter;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+.add-img-rec{
+    width: 288px;
+    height: auto;
+}
+.inputes-side input{
+    width: 50%;
+    background-color:  #8377D1;
+    margin: 15px;
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.publish-btn{
+    width: 50%;
+    margin: 20px 0;
+    text-align: end;
+}
+.pro-descripton{
+    height: 400px;
+}
+.publish-btn button{
+    width: 152px;
+    height: 53px;
+    background: #170059;
+    border-radius: 9px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 167.4%;
+}
+@media only screen and (max-width: 1000px) {
+    .adding-product-items{
+        flex-direction: column;
+        margin: 32px 0;
+    }
+    
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Allerta+Stencil&family=Montserrat:wght@200;800&family=Nova+Round&family=Open+Sans&family=Scada&display=swap');
+.container{
+    height: 100vh;
+    background-image: linear-gradient(180deg, #393A50, rgb(25, 7, 92));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #09042E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 40px;
+
+}
+
+.home-bg img{
+    -webkit-filter: drop-shadow(2px 2px 2px #c7bfbf);
+    filter: drop-shadow(2px 2px 2px #ffffff);
+    width:614px;
+    margin-bottom: 0;
+}
+title{
+    color: white;
+    
+}
+.title h1{
+    
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+
+    font-weight: 400;
+}
+.title-items span{
+    color: #8894e4;
+    font-family: 'Nova Round', cursive;
+
+}
+.title-items h6{
+    font-family: 'Nova Round', cursive;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    width: 70%;
+    line-height: 25px;
+    font-weight: 100;
+}
+.title-items{
+    color:white;
+    
+}
+.descreption{
+    margin-top: 20px;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.first-desc li{
+    color: #c6c6c6;
+    list-style: none;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Nova Round', cursive;
+}
+
+.first-desc{
+    display: flex;
+    align-items: center;
+    
+}
+@media  (max-width:768px){
+    .home-bg{
+        display: none;
+    }
+    .title{
+        width: 100%;
+        font-size: 10px;
+    }
+    
+}
+@media  (max-width: 1500px){
+    .descreption{
+        display: block;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .first-desc{
+        margin-top: 10px;
+    }
+}

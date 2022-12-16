@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Almarai:wght@300&family=Cairo:wght@200;300;900&family=Comfortaa:wght@300&family=Montserrat:wght@700&family=Oswald&display=swap');
+/*.section-wrap{
+    padding: var(--padding-primary);
+
+}
+.section-header{
+    text-align: center;
+    color: var(--light-color);
+}
+.section-header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: var(--font-weight-extra-bold);
+    font-size: var(--font-size-primary);
+}.card-items-img{
+    width: 250px;
+    height: auto;
+    border-radius: var(--border-raduis-primary);
+}
+.card-items-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-items{
+    padding: calc(var(--padding-primary)/ 2);
+    background-color: var(--darkest-color);
+    max-width: 360px;
+    max-height: 360px;
+    border-radius: var(--border-raduis-primary);
+}
+*/
+
+.start-categories{
+    background-image: linear-gradient(180deg, #393A50, rgb(25, 7, 92));
+    padding-top: 150px;
+    text-align: center;
+    height: 100%;
+    
+}
+.first-cat{
+    background-color: rgb(16, 16, 61);
+    width: 21 0px;
+    height: auto;
+    border-radius: var(--border-raduis-primary);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.first-cat img{
+    width: 310px;
+    padding: 25px;
+    border-radius: var(--border-raduis-special);
+    
+    
+}
+
+.first-cat-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    
+    font-size: small;
+}
+.categories{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.categories{
+    flex: 1 25%;
+}
+.assesment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.start-categories h3{
+    font-size: 500%;
+    color: white;
+}
+@media only screen and  (max-width: 1500px) {
+    .start-categories{
+        height: 100%;
+        text-align: center;
+    }
+    .categories{
+        text-align: center;
+    }
+    
+}
+
